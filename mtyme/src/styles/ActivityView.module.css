@@ -1,0 +1,48 @@
+.mainContainer {
+    font-family: var(--font-rubik);
+    border-radius: 15px;
+    background-color: var(--neutral-dark-blue);
+    display: inline-grid;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 15px;
+    height: 100px;
+}
+
+.icon {
+    margin-top: -10px;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.infoContainer {
+    margin-top: -50px;
+    border-radius: 15px;
+    background-color: var(--neutral-dark-blue);
+    padding: 30px;
+}
+
+.hoursText {
+    font-size: 4em;
+    font-weight: 300;
+    margin: 20px 0 10px 0;
+}
+
+.headerInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.dotMenu {
+    align-items: 'center';
+    cursor: pointer;
+}
