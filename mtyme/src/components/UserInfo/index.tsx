@@ -2,7 +2,7 @@ import React from "react";
 import { UserView } from "./View";
 import { User } from "@/model/userModel";
 
-interface UserInfoProps {
+export interface UserInfoProps {
   user: User | null;
   periodType: string;
   onPeriodSelect: (period: string) => void;

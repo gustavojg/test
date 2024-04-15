@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "@/styles/ActivityView.module.css";
-type ActivityViewProps = {
+export type ActivityViewProps = {
   type: string;
   currenTime: string;
   periodTime: string;
   periodText: string;
   bgColor: string;
-  icon: any;
+  icon: string;
 };
 
 export const ActivityView: React.FC<ActivityViewProps> = (props) => {
