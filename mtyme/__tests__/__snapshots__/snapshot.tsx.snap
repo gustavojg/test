@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ActivityInfo component 1`] = `
+<div>
+  <div
+    class="mainContainer"
+  >
+    <div
+      class="header"
+      style="background-color: rgb(102, 102, 102);"
+    >
+      <img
+        alt="Work"
+        class="icon"
+        src="/images/icon-work.svg"
+      />
+    </div>
+    <div
+      class="infoContainer"
+    >
+      <div
+        class="headerInfo"
+      >
+        <div
+          class="typetext"
+        >
+          Work
+        </div>
+        <div
+          class="dotMenu"
+        >
+          <img
+            alt="menu"
+            src="/images/icon-ellipsis.svg"
+          />
+        </div>
+      </div>
+      <div
+        class="hoursText"
+      >
+        10
+        hrs
+      </div>
+      <div
+        class="periodText"
+      >
+        Yesterday
+         - 
+        20
+        hrs
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders UserInfo component 1`] = `
+<div>
+  <div
+    class="mainContainer"
+  >
+    <div
+      class="container"
+    >
+      <img
+        alt="John"
+        class="userImage"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="100"
+        src="/_next/image?url=%2Fimages%2Fusers%2Fimage-jeremy.png&w=256&q=75"
+        srcset="/_next/image?url=%2Fimages%2Fusers%2Fimage-jeremy.png&w=128&q=75 1x, /_next/image?url=%2Fimages%2Fusers%2Fimage-jeremy.png&w=256&q=75 2x"
+        style="color: transparent;"
+        width="100"
+      />
+      <div
+        class="title"
+      >
+        Report for
+      </div>
+      <div
+        class="userName"
+      >
+        John
+      </div>
+      <div
+        class="userName"
+      >
+        Doe
+      </div>
+    </div>
+    <div
+      class="buttonsContainer"
+    >
+      <a
+        class="periodButton selected"
+      >
+        Daily
+      </a>
+      <a
+        class="periodButton "
+      >
+        Weekly
+      </a>
+      <a
+        class="periodButton "
+      >
+        Monthly
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <main
+    class="main className"
+  >
+    <div
+      class="activityContainer gridContainer"
+    >
+      <div>
+        Loading...
+      </div>
+    </div>
+  </main>
+</div>
+`;
